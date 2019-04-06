@@ -7,7 +7,7 @@ import (
 	"net/http"
 )
 
-var blockchain *core.Blockchain
+var blockchain *core.B
 
 func run() {
 	http.HandleFunc("/blockchain/get",blockchainGetHandler)
